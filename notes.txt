@@ -1,0 +1,310 @@
+	1.9.0.0 Update (02.01.20) Release Notes
+	
+ - Material Requisiton Form logic added;
+ - User Control System globally updated;
+ - Status bar added to main window;
+ - Fixed asynchroneus work of modal windows (Login Window also);
+ - Visual changes in Main Window and Detais pane in every table view;
+ - Visual changes in some dialog windows;
+ - Fixed some bugs;
+ 
+	1.7.0.5 Update (26.10.19) Release Notes:
+ 
+ - Fixed bug on adding new record in a table;
+ - Fixed showing waring dialog on program exit;
+ - Fixed dialog on table switching;
+ 
+	1.7.0.4 Update (23.10.19) Release Notes:
+ 
+ - Fixed bug of checking user rights in MIF table;
+ - Fixed saving "Check On Empty Record" setting in Program Preferecies;
+ 
+	1.7.0.0 Update (22.10.19) Release Notes:
+ 
+ - Globally updated messaging system;
+ - Added new messages (such as Question Message);
+ - Moved some buttons to Main Window;
+ - Some functions moved (such as Utilites) to Main Window menu bar;
+ - Fixed saving marked records;
+ - Fixed saving existing data;
+ - Fixed dublicated on Import Data list while saving marked items;
+ - Fixed bug in Row Settings Window;
+ - Fixed Open Specific file type dialog windos (file types was not filtered);
+ - Fixed bug in MIF table after Depleted Message was shown;
+ 
+	1.6.9.1 Update (15.10.19) Release Notes:
+ 
+ - Fixed opening Import Row Settings dialog window;
+ 
+	1.6.9.0 Update (14.10.19) Release Notes:
+ 
+ - Fixed bug on opening program settings (program was crushing on opening sum tables);
+ 
+	1.6.8.0 Update (11.10.19) Release Notes:
+ 
+ - Checking for dublicate recods added to PRO and LS "Add to MIR" function;
+ - Handled situation of various types adding to MIR;
+ - Fixed savid Materials Issue Form when Dynamic Substitution function is on;
+ - Added checking for maximum of MIR records while using Add To MIR function;
+ 
+	1.6.7.0 Update (09.10.19) Release Notes:
+ 
+ - Added template Dynamic Substitution function in Material Issue Form settings;
+ - Fixed bug in saving Settings in Program Prefereces;
+ - Added Document Location fields in Project Materials and Lumb Sum tables;
+  
+	1.6.6.0 Update (08.10.19) Release Notes:
+ 
+ - Saving Material Issue Form Log table state implemented;
+ - Fixed bug in saving records marked as "Not Saved";
+ - Fixed bug of Load/Update button in Document Control section;
+ - Fixed bug of Material Depleted message after deleteing items from Material Issue Form;
+ - Added setting rows number and default template`s sheet name for Material Issue Form in Program Prefereces;
+ - Added manual "Issued Quantilty Check" utility in "Project Materaials" and "Lumb Sum" tables;
+ 
+	1.6.0.0 Update (04.10.19) Release Notes:
+ 
+ - Added new table "PO";
+ - Created new tab. "MR" and "PO" tables moved there;
+ - Improved saving data in all tables to new algorithm;
+ - Added order numbers in Material Issue Form table (automatic and manual);
+ - "Form Issued By" column added to MIF log table;
+ - Fixed opening ".mif" files in Material Issue Form table;
+ - Fixed some omissions in program code.
+ 
+	1.5.5.0 Update (27.09.19) Release Notes:
+ 
+ - Improved Material Issue Form number control while saving Form;
+ - Added automatic cloning function of "From" and "To" fields in Material Issue Form;
+ - Cloning of "From" and "To" fields option added to the Program Prefereces;
+ - Fixed updating Material Issue Form table state after Material Depleted error occures;
+ - Fixed saving of existing records;
+ 
+	1.5.0.0 Update (25.09.19) Release Notes:
+ 
+ - Added stock checking function in Material Issue Form (automatic and manual);
+ - Improved Depleted materials checking in Material Issue Form;
+ - Added cloning function of "From" and "To" coulmns values in Material Issue Form;
+ - Changed buttons view in Material Management section;
+ 
+	1.4.3.0 Update (23.09.19) Release Notes:
+ 
+ - Optimized saving algorithm in Project Materials and Lumb Sum tables;
+ - Added "Update after saving data" setting in Program Preferences;
+ - Added "Atomatic load statistics" setting in Program Preferences;
+ - Fixed Error message on pressing Load/Update button;
+ 
+	1.4.0.0 Update (20.09.19) Release Notes:
+ 
+ - Administration tab removed;
+ - Material Issue Log moved to Material Management tab;
+ - Added buttons activity state on the Tools Panel, depeds of table type;
+ - Corrected rounding in some values in Project Management and Lumb Sum;
+ 
+	1.3.0.0 Update (19.09.19) Release Notes:
+ 
+ - Added Table Filter to Lump Sum table (for test);
+ - Fixed deleting records from Material Issue Form table;
+ 
+	1.2.0.0 Update (13.09.19) Release Notes:
+ 
+ - Search bar moved to Tools tables Tool Panel;
+ - Fixed bugs on swithcing tables;
+ - Removed Jump To Last Row button (which had some problems);
+ - Removed top lable panel (with logo);
+ 
+	1.1.0.0 Update (11.09.19) Release Notes:
+ 
+ - Statistics added to Project Materials and Lumb Sum Tables;
+ 
+	1.0.2.0 Update (10.09.19) Release Notes:
+ 
+ - Fixed Error Messages after using Search function;
+ - Expander added to Search Texbox;
+ - Search Texbox expanded to 900 points;
+ 
+	1.0.0.0 Update (10.09.19) Release Notes:
+ 
+ - Global visual changes in program main tabs and side buttons;
+ - Material Management section moved to it`s own Tab;
+ - Deleted Search Tab;
+ 
+	0.29.24.0 Update (09.09.19) Release Notes:
+ 
+ - Fixed bugs in Material Issue Form logic;
+ - Added 1 new column in MIF;
+ 
+	0.29.23.0 Update (06.09.19) Release Notes:
+ 
+ - Fixed and changed Project Materials and Lumb Sum tables logic;
+ - Improved paste process from buffer in tables (now use can see paseted data);
+ - Fixed Paste Marked rows function;
+ - Changed diesign of Project Materials and Lumb Sum panes;
+ - Fixed saving to Database bugs;
+ - Fixed Database Concurrancy errors;
+ 
+	0.29.21.0 Update (03.09.19) Release Notes:
+ 
+ - Material Issue Form transactions bugs fixed;
+ - Fixed appying table settings after pressing Jump Last Row button;
+ - Material Issue Form template changed (20 rows added);
+ - Main Window hot keys changed (see tooltips on buttons);
+ 
+	0.29.19.0 Update (02.09.19) Release Notes:
+ 
+ - Clearing filters added to Load/Update button (by default all filters cleared when table updated);
+ 
+	0.29.18.0 Update (31.08.19) Release Notes:
+ 
+ - Lump Sum Table Changed;
+ - Added some buttons shortcuts in Main Window (see tooltips of buttons);
+ - Fixed some bugs;
+ 
+	0.29.16.0 Update (29.08.19) Release Notes:
+	
+ - Lump Sum Table Changed;
+ - Fixed some bugs;
+ 
+	0.29.13.0 Update (24.08.19) Release Notes:
+ 
+ - Fixed user unauthorized access to the system;
+ - Modified GPM View (Admins only);
+ - Add Empty Row function now creates rows with empty DataTime type;
+ - Handled some tables operations errors;
+ 
+ 	0.29.12.1 Update (22.08.19) Release Notes:
+ 
+ - Fixed user Unauthorized Access Error;
+ 
+	0.29.12.0 Update (20.08.19) Release Notes:
+ 
+ - "Please wait..." and "Caps Lock is On" messages added to Login Window;
+	
+	0.29.11.0 Update (19.08.19) Release Notes:
+	
+ - Jump To Last Row button added;
+ - Row Selection Settings added to Program Prefereces;
+ 
+ 	0.29.9.0 Update (17.08.19) Release Notes:
+	
+ - Added automatically opening Import Tab after using Import function;
+ - Removed unused button in Main Menu;
+ - Fix some program behavior bugs;
+ 
+	0.29.8.2 Update (15.08.19) Release Notes:
+ 
+ - Main Menu reorginized and some buttons names changed;
+ - Two new tables added;
+ - Project Materials and Lump Sum Materials tables logic improved;
+ - Material Issue Form table logic improved;
+ - Safe/Open From File function added to Material Issue Form;
+ - Material Management settings added to Program Preferences;
+ - Import Settings added to Program Prefereces;
+ - Improvement in Import from Excel file functionaltiy;
+ - Little changes in program messages;
+ - Some bugs in program logic fixed;
+
+ 
+	0.27.5.9 Update (01.08.19) Release Notes:
+ 
+ - "Project Materials" and "Lump Sum Materials" fully updated;
+ - Added "Material Issue Form" fuctionality (logic and creating .xlsx (Excel) file);
+ - Added transfer logic for "Project Materials" table;
+ - Added transfer logic for "Lump Sum Materials" table;
+ - Application Settings now saves in System Registry;
+ - Added Template Directory settings;
+ - Added Save Last Loging settings;
+ - Added "Material Issue Form" settings;
+ - View logs of "Material Issue Form" added (in Administrative Tab);
+ - Fixed some Database Error messages;
+ - Fixed some application logic bugs;
+ - Login Window design changed;
+ - Little visual changes in Details pane of tables;
+ 
+	0.21.4.5 Update (11.06.19) Release Notes:
+ 
+ - Fixed QSL Server Settings;
+ - Fixed development code base;
+ 
+	0.22.4.2 Update (09.07.19) Release Notes:
+ 
+ - AZFEN Procedures/Specifications table changed
+ - Changes in AZFEN Procedures/Specifications in Details pane;
+ 
+	0.22.0.0 Update (08.07.19) Release Notes:
+ 
+ - AZFEN Procedures/Specifications table Details changed;
+ - User Data (Login and Password) function added;
+ 
+	0.21.9.0 Update (03.07.19) Release Notes:
+ 
+ - Fixed bug of calculating rows number after using filter;
+ - Fixed work of filters;
+ - Corrected view of Statistics Pane, colors changed;
+ 
+	0.21.7.0 Update (02.07.19) Release Notes:
+ 
+ - About Program window added;
+ - Program version checking direcory changed;
+ - Full Material Issue Form saving to form inplemented;
+ - Azfen Procedures/Specifications table changed, removed some unused coulmns;
+ - Fixed "Find and Replase" function. Now user can replace any part of text.
+ - Fixed some other bugs;
+ 
+	0.21.1.0 Update (23.06.19) Release Notes:
+ 
+ - Added message about dublicates;
+ - Fixed bug of pasting records from buffer;
+ - Fixed bug of deleting just added records;
+ - Fixed bug of "Import Successfully" message even if type of table is not correct;
+ - Fixed update table after trying to add existing items now user can see the red lines;
+ - Fixed simultaneous editing the same records by various users;
+ - Improved saving process in tables;
+ - "Project Materials", "Lump Sum Materials" and "Material Issue Form" tables added;
+ - Fixed showing message bug about saving if user already saved table;
+ - Material Issue Form work logic implemented;
+ 
+	0.17.1.2 Update (11.06.19) Release Notes:
+ 
+ - Fixed some unallowable bugs;
+ 
+	0.17.1.1 Update (03.06.19) Release Notes:
+ 
+ - Fixed bug of deleting marked (in the system) as Not Saved records.
+ - Corrected Program behavior when user checks Program Update while data is not saved.
+ 
+	0.17.0.0 Update (01.06.19) Release Notes:
+ 
+ - Export to Excel file function added to all tables.
+ 
+	0.16.5.2 Update (01.06.19) Release Notes:
+ 
+ - Fixed bug in business calculations in "Project Materials" table.
+ - Note, Note2 and Note3 colunmns in "Project Materials" table now Editable. 
+      (user now can add his own information in "Details" pane).
+ 
+	0.16.5.0 Update (31.05.19) Release Notes:
+ 
+ - Increased security settings of user table permissions of Details Pane TextBoxes;
+ 
+	0.16.4.1 Update (30.05.19) Release Notes:
+ 
+ - Fixed some bugs in User Statistics;
+ - User table security permissions modified in "Import from MS Excel" function;
+ 
+	0.16.2.0 Update (29.05.19) Release Notes:
+ 
+ - Added color trigger to all tables. Not Saved records fonts colored in red;
+ - Fixed bug of deleting records from database;
+ 
+	0.16.0.0 Update (27.05.19) Release Notes:
+ 
+ - Added two new tables to Material Management section: Project Materials, Lump Sum Meterials
+ - Removed "Azf099" Table;
+ - Added "Find and Replace" function;
+ - Changed background to coloured in "Details" window, Text Boxes corrected;
+ - Fixed bug of SQL Server access;
+ - Fixed bug of checking update config file;
+ - Fixed bug of deleting not saved record;
+ - User table permissions added;
+ 
